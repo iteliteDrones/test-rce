@@ -1,5 +1,4 @@
 import express from "express";
-import * as fs from "fs"
 
 const app = express();
 
