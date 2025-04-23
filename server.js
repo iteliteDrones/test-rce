@@ -9,4 +9,4 @@ server.get("/rce", (req, res) => {
     })
 });
 
-server.listen(5000)
+export default serverless(app);
