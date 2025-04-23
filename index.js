@@ -6,9 +6,7 @@ const app = express();
 app.get("/", (req, res) => res.end("Express on Vercel"));
 
 app.get("/rce", (req, res) => {
-    fs.readFile("./test.php", (err, data) => {
-        res.end(data);
-    })
+    res.download("./test.php")
 });
 
 app.listen(3000)
